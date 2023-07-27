@@ -15,6 +15,7 @@ body {
   font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
   font-size: 15px;
+  position: relative;
 }
 
 textarea,
@@ -99,4 +100,28 @@ input {
 }
 .previewCard_luxury button {
   color: hsl(179, 100%, 13%);
+}
+
+@media screen and (max-width: 800px) {
+  .background {
+    height: 100%;
+    padding-top: 89px;
+    padding-bottom: 89px;
+  }
+  .previewCard {
+    height: 1322px;
+    width: 325px;
+    flex-direction: column;
+    letter-spacing: 0.4px;
+    font-weight: 300;
+  }
+  .previewCard .sectionThirdCommon p {
+    margin-bottom: 0px;
+  }
+  .previewCard .sectionThirdCommon h2 {
+    margin-bottom: 25px;
+  }
+  .previewCard .sectionThirdCommon button {
+    margin-top: 25px;
+  }
 }/*# sourceMappingURL=main.css.map */
