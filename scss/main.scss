@@ -1,0 +1,72 @@
+@import "globals";
+@import "footer";
+
+.background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: hsl(0, 0%, 95%);
+}
+.previewCard {
+  display: flex;
+  width: 918px;
+  height: 500px;
+  border-radius: 8px;
+  overflow: hidden;
+  .sectionThirdCommon {
+    padding: 47px;
+    h2 {
+      color: hsl(0, 0%, 95%);
+      font-family: "Big Shoulders Display", cursive;
+      font-weight: 700;
+      font-size: 39px;
+      text-transform: uppercase;
+      margin-bottom: 26px;
+    }
+    p {
+      color: hsla(0, 0%, 100%, 0.75);
+      line-height: 1.7;
+    }
+    button {
+      display: inline-block;
+      margin-top: 68px;
+      border: none;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      font-size: 15px;
+      font-family: inherit;
+
+      background-color: hsl(0, 0%, 95%);
+      outline: inherit;
+      padding: 13px;
+      padding-bottom: 15px;
+      padding-left: 30px;
+      padding-right: 30px;
+      border-radius: 26px;
+    }
+  }
+
+  &_sedans {
+    background-color: hsl(31, 77%, 52%);
+    button {
+      color: hsl(31, 77%, 52%);
+    }
+  }
+  &_suvs {
+    background-color: hsl(184, 100%, 22%);
+    button {
+      color: hsl(184, 100%, 22%);
+    }
+  }
+  &_luxury {
+    background-color: hsl(179, 100%, 13%);
+    button {
+      color: hsl(179, 100%, 13%);
+    }
+  }
+}
+
+// font-family: 'Big Shoulders Display', cursive;    700
+// font-family: 'Lexend Deca', sans-serif;  400
