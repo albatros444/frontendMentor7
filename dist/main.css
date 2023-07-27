@@ -89,17 +89,32 @@ input {
 .previewCard_sedans button {
   color: hsl(31, 77%, 52%);
 }
+.previewCard_sedans button:hover {
+  color: white;
+  background-color: hsl(31, 77%, 52%);
+  outline: 3px solid white;
+}
 .previewCard_suvs {
   background-color: hsl(184, 100%, 22%);
 }
 .previewCard_suvs button {
   color: hsl(184, 100%, 22%);
 }
+.previewCard_suvs button:hover {
+  color: white;
+  background-color: hsl(184, 100%, 22%);
+  outline: 3px solid white;
+}
 .previewCard_luxury {
   background-color: hsl(179, 100%, 13%);
 }
 .previewCard_luxury button {
   color: hsl(179, 100%, 13%);
+}
+.previewCard_luxury button:hover {
+  color: white;
+  background-color: hsl(179, 100%, 13%);
+  outline: 3px solid white;
 }
 
 @media screen and (max-width: 800px) {

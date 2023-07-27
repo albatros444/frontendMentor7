@@ -38,7 +38,6 @@
       text-decoration: none;
       font-size: 15px;
       font-family: inherit;
-
       background-color: hsl(0, 0%, 95%);
       outline: inherit;
       padding: 13px;
@@ -53,18 +52,33 @@
     background-color: hsl(31, 77%, 52%);
     button {
       color: hsl(31, 77%, 52%);
+      &:hover {
+        color: white;
+        background-color: hsl(31, 77%, 52%);
+        outline: 3px solid white;
+      }
     }
   }
   &_suvs {
     background-color: hsl(184, 100%, 22%);
     button {
       color: hsl(184, 100%, 22%);
+      &:hover {
+        color: white;
+        background-color: hsl(184, 100%, 22%);
+        outline: 3px solid white;
+      }
     }
   }
   &_luxury {
     background-color: hsl(179, 100%, 13%);
     button {
       color: hsl(179, 100%, 13%);
+      &:hover {
+        color: white;
+        background-color: hsl(179, 100%, 13%);
+        outline: 3px solid white;
+      }
     }
   }
 }
